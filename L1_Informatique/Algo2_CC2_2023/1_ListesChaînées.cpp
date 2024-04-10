@@ -15,7 +15,9 @@ using liste = maillon *;
 void saisie(fraction f){
     int n,d;
     cout<<"Numérateur et dénominateur : ";cin>>n>>d;
-    do{cout<<"Dénominateur non nul !"<<endl;saisie(f);}while(d==0);
+    if(d==0){
+        cout<<"Dénominateur non nul !"<<endl;
+        saisie(f);}
     f.num = n;f.den = d;}
 //4.
 void ajoutEntete(liste &l,fraction f){
@@ -45,5 +47,17 @@ void sans_doublons(liste &l){
         if(signe(l->val,l->suiv->val)==0) supprimePremier(l);
         else sans_doublons(l->suiv);}}
 
-/////////// A TESTER //////////////////
-int main(){}
+
+void affichefraction(fraction f){cout<<f.num<<" / "<<f.den <<endl;}
+void afficheListe(liste l){
+    if(l!=nullptr){
+        affichefraction(l->val);
+        afficheListe(l->suiv);}}
+int main(){
+    fraction f;liste l;l=nullptr;
+    saisie(f);
+    affichefraction(f);
+    ajoutEntete(l,f);
+    afficheListe(l);
+    return 0;
+}
