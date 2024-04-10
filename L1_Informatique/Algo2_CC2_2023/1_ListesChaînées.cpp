@@ -12,12 +12,10 @@ struct maillon {
 };
 using liste = maillon *;
 //3.
-void saisie(fraction f){
-    int n,d;
+void saisie(fraction &f){
+    int n,d = 0;
     cout<<"Numérateur et dénominateur : ";cin>>n>>d;
-    if(d==0){
-        cout<<"Dénominateur non nul !"<<endl;
-        saisie(f);}
+    while(d==0){cout<<"Dénominateur non nul ! : ";cin>>d;}
     f.num = n;f.den = d;}
 //4.
 void ajoutEntete(liste &l,fraction f){
@@ -39,25 +37,34 @@ bool croissante(liste l){
         else return false;}}
 //8.
 void insere(liste &l, fraction f){
-    if(signe(l->val,f) < 0) ajoutEntete(l->suiv,f);
-    else if(signe(l->val,f)==0) insere(l->suiv,f);}
+    if(l!=nullptr){
+        if(signe(l->val,f)==1) ajoutEntete(l,f);
+        else insere(l->suiv,f);}
+    else ajoutEntete(l,f);}
 //9.
 void sans_doublons(liste &l){
     if(l->suiv!=nullptr){
         if(signe(l->val,l->suiv->val)==0) supprimePremier(l);
         else sans_doublons(l->suiv);}}
-
-
-void affichefraction(fraction f){cout<<f.num<<" / "<<f.den <<endl;}
+        
+///////////// TEST////////////////
+/*
+void affichefraction(fraction f){cout<<f.num<<"/"<<f.den;}
 void afficheListe(liste l){
     if(l!=nullptr){
         affichefraction(l->val);
-        afficheListe(l->suiv);}}
+        if(l->suiv!=nullptr){
+            cout<<", ";afficheListe(l->suiv);}
+        else cout<<endl;}}
 int main(){
     fraction f;liste l;l=nullptr;
-    saisie(f);
-    affichefraction(f);
-    ajoutEntete(l,f);
+    for(int i = 6; i > 0; i--){
+        f.num = i;f.den = 1;
+        ajoutEntete(l,f);}
     afficheListe(l);
-    return 0;
-}
+    //liste p = l;supprimePremier(p);supprimePremier(p);
+    //cout<<signe(p->suiv->val,p->val)<<endl;
+    //cout<<croissante(l)<<endl;
+    f.num=5;f.den=1;
+    insere(l,f);afficheListe(l);sans_doublons(l);afficheListe(l);
+    return 0;}*/
