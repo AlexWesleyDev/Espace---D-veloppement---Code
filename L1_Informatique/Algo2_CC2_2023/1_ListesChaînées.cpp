@@ -47,8 +47,7 @@ void sans_doublons(liste &l){
         if(signe(l->val,l->suiv->val)==0) supprimePremier(l);
         else sans_doublons(l->suiv);}}
         
-///////////// TEST////////////////
-/*
+/* TEST
 void affichefraction(fraction f){cout<<f.num<<"/"<<f.den;}
 void afficheListe(liste l){
     if(l!=nullptr){
