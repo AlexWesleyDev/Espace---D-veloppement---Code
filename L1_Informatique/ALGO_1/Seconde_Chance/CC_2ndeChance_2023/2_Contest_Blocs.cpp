@@ -56,7 +56,7 @@ int gagnant(TStats tops,TStats zones,TMatrice M,int nbc){
             if(zones[indT]<zones[i]) indT = i;
             else if(zones[indT]==zones[i]){cout<<"Cas non traité car 2 concurrents exaequo."<<endl;break;}}}
     return indT;}
-/// TEST
+/// TEST facultatif
 void afficheTstats(TStats tab,int C){
     for (int i = 0; i < C; i++){
         cout<<" "<<tab[i];}cout<<endl;}
