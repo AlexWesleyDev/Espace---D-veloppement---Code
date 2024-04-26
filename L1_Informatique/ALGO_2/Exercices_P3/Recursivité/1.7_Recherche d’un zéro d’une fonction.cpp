@@ -14,7 +14,7 @@ float max(float a,float b){
 float min(float a,float b){
     if(a>b) return b;
     else if(a<b) return a;}
-    
+
 float diff(float a,float b){return valeurAbs(max(a,b)) - (valeurAbs(min(a,b)));}
 
 void rech_zero(float &a, float &b,float &valMilieu){
@@ -52,9 +52,6 @@ int main (){
     float M = min(a,b) + (diff(a,b)/2);
     rech_zero(a,b,M);
     return 0;}
-
-
-
 /*
 //cout<<"Intervalle [a,b] avec a != b : ";cin>>a>>b;
     rech_zero(a,b);
