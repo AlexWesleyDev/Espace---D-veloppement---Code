@@ -5,15 +5,21 @@ float f(int x){return 48*(x*x*x)-16*(x*x)-32*x-1;}
 
 float valeurAbs(float x){
     if(x>0) return x;
-    else if(x<0) return -x;}
+    else{
+        if(x<0) return -x;
+        else return 0;}}
 
 float max(float a,float b){
     if(a>b) return a;
-    else if(a<b) return b;}
+    else{
+        if(a<b) return b;
+        else return a;}}
 
 float min(float a,float b){
     if(a>b) return b;
-    else if(a<b) return a;}
+    else{
+        if(a<b) return a;
+        else return a;}}
 
 float diff(float a,float b){return valeurAbs(max(a,b)) - (valeurAbs(min(a,b)));}
 
