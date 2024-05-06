@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float f(int x){
+float f(float x){
     //return 48*(x*x*x)-16*(x*x)-32*x-1;}
     return 4*x*(4*x*(3*x-1)-8)-1;}
     
@@ -29,32 +29,19 @@ float ecart(float a,float b){return max(a,b)-min(a,b);}
 void rech_zero(float a, float b){
     if(f(a)*f(b)<0){
         float valMilieu = min(a,b) + (ecart(a,b)/2);
-        if(f(valMilieu)*f(a)<0){
-            if(ecart(a,valMilieu)>0 && ecart(a,valMilieu)<0.1){//trouvee
-                cout<<"Valeur de a (min) : "<<min(a,b)<<" avec f(a) : "<<f(min(a,b))<<endl;
-                cout<<"Valeur de b (max): "<<max(a,b)<<" avec f(b) : "<<f(max(a,b))<<endl;
-                cout<<"Valeur écart(A,milieu) : "<<ecart(a,valMilieu)<<endl;
-                cout<<"Valeur écart(a,b) : "<<ecart(a,b)<<endl;
-                cout<<"Valeur du <<milieu>> : "<<valMilieu<<" avec f(milieu) : "<<f(valMilieu)<<endl;
-                cout<<"f(a)*f(b) : "<<f(a)*f(b)<<endl;}
-            else rech_zero(valMilieu,a);}
+        if(f(valMilieu)<0.1 && f(valMilieu)>0){
+            cout<<"Valeur de a (minimum) : "<<min(a,b)<<" avec f(a) : "<<f(min(a,b))<<endl;
+            cout<<"Valeur de b (maximum): "<<max(a,b)<<" avec f(b) : "<<f(max(a,b))<<endl;
+            cout<<"Valeur écart avec A et M (A,milieu) : "<<ecart(min(a,b),valMilieu)<<endl;
+            cout<<"Valeur écart entre (a,b) : "<<ecart(a,b)<<endl;
+            cout<<"Valeur du <<milieu>> : "<<valMilieu<<" avec f(milieu) : "<<f(valMilieu)<<endl;}        
         else{
-            if(f(valMilieu)*f(b)<0){// Pas trouvee
-                if(ecart(b,valMilieu)>0 && ecart(a,valMilieu)<0.1){//trouvee
-                    cout<<"Valeur de a : "<<a<<" avec f(a) : "<<f(a)<<endl;
-                    cout<<"Valeur de b : "<<b<<" avec f(b) : "<<f(b)<<endl;
-                    cout<<"Valeur écart(B,milieu) : "<<ecart(b,valMilieu)<<endl;
-                    cout<<"Valeur écart(a,b) : "<<ecart(a,b)<<endl;
-                    cout<<"Valeur du <<milieu>> : "<<valMilieu<<" avec f(milieu) : "<<f(valMilieu)<<endl;
-                    cout<<"f(a)*f(b) : "<<f(a)*f(b)<<endl;}
-                else rech_zero(valMilieu,b);}}}}
+            if(f(valMilieu)*f(a)<0) rech_zero(valMilieu,a);
+            else if(f(valMilieu)*f(b)<0) rech_zero(valMilieu,b);}}}
 
 int main (){
-    float a,b,M;a=0;b=0;M=0;
-    do{
-        while(f(a)>0){a++;}
-        b=a+1;while(f(b)<0){b++;}}
-    while(f(a)*f(b)>0);
-    //cout<<a<<b;
+    float a,b;cout<<"Valeur de a et b (à la suite) : ";cin>>a>>b;
+    while(f(a)*f(b)>=0){
+        cout<<"Erreur.Valeur de a et b (à la suite) : ";cin>>a>>b;}
     rech_zero(a,b);
     return 0;}
