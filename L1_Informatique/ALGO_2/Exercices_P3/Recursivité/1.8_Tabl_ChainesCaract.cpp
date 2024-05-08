@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 //1.
 void saisie(int * &T,int n){
