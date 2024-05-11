@@ -12,7 +12,7 @@ bool est_premier(int n){
 //3.
 void affiche_premiers(int n){
     if(n>0){
-        if(n%1==0){
+        if(est_premier(n)){
             affiche_premiers(n-1);
             cout<<n<<" ";}
         else affiche_premiers(n-1);}}
