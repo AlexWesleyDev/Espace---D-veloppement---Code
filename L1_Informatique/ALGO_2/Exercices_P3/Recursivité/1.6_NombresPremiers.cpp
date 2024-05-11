@@ -7,7 +7,7 @@ int diviseur(int n,int d){
 //2.
 int valeurAbs(int n){if(n>0) return n;else return -n;}
 bool est_premier(int n){
-    if(diviseur(valeurAbs(n),1)== valeurAbs(n)) return true;
+    if(n%2==0) return true;
     else return false;}
 //3.
 void affiche_premiers(int n){
@@ -20,5 +20,5 @@ void affiche_premiers(int n){
 int main(){
     int n;cout<<"Entier : ";cin>>n;
     //cout<<est_premier(n)<<endl;
-    affiche_premiers(n);
+    affiche_premiers(n-1);
     return 0;}
