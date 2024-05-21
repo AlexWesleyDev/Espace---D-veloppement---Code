@@ -71,4 +71,3 @@ int main (){
     cout<<"Zones --> ";afficheTstats(zones,C);
     cout<<"Indice du gagnant : "<<gagnant(tops,zones,M,C)<<endl;
     return 0;}
-//// TEST
