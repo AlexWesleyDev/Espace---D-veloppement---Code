@@ -1,0 +1,7 @@
+table, th, td {
+	border: solid 1px  red;
+	border-collapse: separate;}
+
+table {
+    table-layout: auto;
+    width: 300px;}

@@ -1,0 +1,16 @@
+@charset "UTF -8";
+
+body{background : lightgrey;}
+
+h1{font-family : " Arial Black ", Arial ;
+    font-size : 180%;
+    text-transform : capitalize ;}
+
+p, h3 {font-family : Tahoma , Arial , Sans - Serif ;
+    /* font - style : italic ; */
+    font-size : 110%;}
+
+.asouligner{text-decoration: underline;}
+
+#flash{background : rgb(200, 255, 0);
+    color : lightblue;}

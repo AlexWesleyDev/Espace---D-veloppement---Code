@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+a:link{color: green;}
+a:hover{color: orange;}
+a:visited{color: red;}

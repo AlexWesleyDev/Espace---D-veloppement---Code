@@ -1,0 +1,12 @@
+table, th, td {
+    color: black;
+    border : solid 1px black;
+    border-collapse: collapse;}
+    
+#texte{border:none;}
+
+body :not(th){
+    border-color: red;
+    color: red;
+   }
+   th{padding: 5px;}
