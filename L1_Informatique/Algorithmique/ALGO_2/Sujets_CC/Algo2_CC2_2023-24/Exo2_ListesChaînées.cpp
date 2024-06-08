@@ -4,16 +4,15 @@ using namespace std;
 
 struct arret {
     std::string nom;
-    int duree;
-}
+    int duree;};
+
 struct maillon {
     arret val;
-    maillon * suiv;
-}
+    maillon * suiv;};
 using ligne = maillon *;
 //1.
-void ajoutDebut(liste &l,arret A){liste p = new maillon;p->val.nom = A.nom;p->val.duree = A.duree;p->suiv=l;l=p;}
-void ajout_fin(liste &l,arret A){
+void ajoutDebut(ligne &l,arret A){ligne p = new maillon;p->val.nom = A.nom;p->val.duree = A.duree;p->suiv=l;l=p;}
+void ajout_fin(ligne &l,arret A){
     if(l==nullptr) ajoutDebut(l,A);
     else ajout_fin(l->suiv,A);}
 //2.

@@ -20,3 +20,5 @@ int main(){
             if(s/2==n){cout<<n<<' ';}s=0;}
         cout<<endl;}
     return 0;}
+
+// Exercice 3.11 Suites numériques falcutatif
