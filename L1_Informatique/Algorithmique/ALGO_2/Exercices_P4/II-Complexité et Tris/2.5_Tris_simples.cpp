@@ -24,7 +24,7 @@ void tri_selection(int* T,int n){
 //3.
 void insere(int * &T,int &N,int X){
     int i = 0; int n=N;N++;
-   while(i != -1){
+    while(i != -1){
         if(T[i]>X){
             while(T[n-1]>X){
                 echange(T,n-1,n); //On échange le dernier élément d'indice n-1 à T[n] qui vaut un nombre par défaut.
