@@ -1,3 +1,0 @@
- cout<<"Périmètre : "<<perimetre(a,b,c)<<endl;
-    cout<<"Aire : "<<Aire(a,b,c)<<endl;
-    cout<<"Il s'agit d'un "<<NatureTriangle(a,b,c)<<" de périmètre "<<perimetre(a,b,c)<<" et d'aire "<<Aire(a,b,c)<<endl;
