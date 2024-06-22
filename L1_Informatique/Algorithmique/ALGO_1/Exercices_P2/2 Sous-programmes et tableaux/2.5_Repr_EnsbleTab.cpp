@@ -14,21 +14,23 @@ bool appartient(Ensemble T,int n,float v){
 bool ensemble(Ensemble T,int n){
     for(int i=0;i<n;i++){if(occurence(T,n,T[i])!=1) return false;}return true;}
 //4
-void devient_ensemble(Ensemble T1,int n1,Ensemble &T2,int &n2){
-    Ensemble tab;int ind=0,nt=1,n2=0;tab[0]=T1[0];
-    for(int i=1;i<n1;i++){
-        if(not(appartient(tab,nt,T1[i]))){T2[ind]=T1[i];ind+=1;n2+=1;}
-        else{tab[nt]=T1[i];nt+=1;}}}
+void devient_ensemble(Ensemble &T1,int &n1){
+    Ensemble tab,T2;int ind=0,nt=0,n2=0;
+    for(int i=0;i<n1;i++){
+        if(not(appartient(tab,nt,T1[i]))){T2[ind]=T1[i];ind+=1;n2+=1;tab[nt]=T1[i];nt+=1;}
+        else{tab[nt]=T1[i];nt+=1;}}T1=T2;n1=n2;}
 //5
 void inter_ens(Ensemble A,int nA,Ensemble B,int nB,Ensemble &I,int &nI){
+    nI=0;
     for(int i=0;i<nA;i++){
         for(int k=0;k<nB;k++){
             if(A[i]==B[k]){I[nI]=A[i];nI+=1;}}}
-    Ensemble D;int nd;devient_ensemble(I,nI,D,nd);I=D;nI=nd;}
+    devient_ensemble(I,nI);}
 
 void union_ens(Ensemble A,int nA,Ensemble B,int nB,Ensemble &U,int &nU){
-    nU=nA+nB;U=A;int ind=0;for(int i=nA;i<nU;i++){U[i]=B[ind];ind+=1;}}
-
-int main(){
-    Ensemble A,B,I,U;int nA,nB,nI,nU;
-    return 0;}
+    nU=nA+nB;U=A;int ind=0;for(int i=nA;i<nU;i++){U[i]=B[ind];ind+=1;}
+    devient_ensemble(U,nU);}
+//TEST
+void affichage(Ensemble A,int n){for(int i=0;i<n;i++){cout<<A[i]<<' ';}cout<<endl;}
+//int main(){return 0;}
+//JEU SAUTE-MOUTON A TRAITER ULTERIEUREMENT
