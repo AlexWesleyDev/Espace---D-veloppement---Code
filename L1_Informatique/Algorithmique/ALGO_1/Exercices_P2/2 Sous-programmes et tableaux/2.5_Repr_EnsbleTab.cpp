@@ -3,6 +3,7 @@
 using namespace std;
 const int NMAX=100;
 using Ensemble=array<int,NMAX>;
+///////////////// A TESTER  /////////////
 //1
 int occurence(Ensemble T,int n,float v){int cpt=0;
     for(int i=0;i<n;i++){if(v==T[i]) cpt+=1;}return cpt;}
