@@ -84,5 +84,4 @@ int main (){
     liste_joueurs l;initListe(l);
     ajoutJoueur(l,"Wesley");
     //afficheListe(l);
-    return 0;
-}
+    return 0;}
