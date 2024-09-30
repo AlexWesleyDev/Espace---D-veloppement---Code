@@ -36,7 +36,7 @@ class Program{
         Console.Write("Saisir un nombre entre 10-100 ou -10 et -100 : "); int N = Convert.ToInt32(Console.ReadLine());
         if (N >= 10 && N <= 100 || N <= -10 && N >= -100) { Console.WriteLine("Juste"); }
         else { Console.WriteLine("Erreur.Réponse non conforme."); }
-        /*/8
+        //8
         Console.WriteLine("Saisir deux nombres : ");Console.Write("Nb1 : ");int nb1=Convert.ToInt32(Console.ReadLine());
         Console.Write("Nb2 : ");int nb2=Convert.ToInt32(Console.ReadLine());
         if (nb1 > nb2) { Console.WriteLine(nb1 + " est le plus grand nombre."); }
@@ -48,5 +48,5 @@ class Program{
         if (nb1 > nb2 && nb1 > nb3) { Console.WriteLine(nb1 + " est le plus grand nombre."); }
         else {
             if (nb2 > nb1 && nb2 > nb3) { Console.WriteLine(nb2 + " est le plus grand nombre."); }
-            else { if (nb3 > nb2 && nb3 > nb1) { Console.WriteLine(nb3 + " est le plus grand nombre.");}}}*/
+            else { if (nb3 > nb2 && nb3 > nb1) { Console.WriteLine(nb3 + " est le plus grand nombre.");}}}
         Console.ReadKey();}}
