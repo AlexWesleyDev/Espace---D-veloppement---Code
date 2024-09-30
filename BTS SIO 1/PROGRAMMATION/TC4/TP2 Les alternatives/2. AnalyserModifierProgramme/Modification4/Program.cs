@@ -7,8 +7,6 @@ class Program4{
         else{
             Console.Write("Saisir note 1 ? : ");string inputNote1 = Console.ReadLine();
             Console.Write("Saisir note 2 ? : ");string inputNote2 = Console.ReadLine();
-
-
             if(string.IsNullOrEmpty(inputNote1) || !double.TryParse(inputNote1, out note1) ||
             string.IsNullOrEmpty(inputNote2) || !double.TryParse(inputNote2, out note2)){
                 Console.WriteLine("Erreur : vous devez saisir un nombre entier non vide pour les notes !");}
