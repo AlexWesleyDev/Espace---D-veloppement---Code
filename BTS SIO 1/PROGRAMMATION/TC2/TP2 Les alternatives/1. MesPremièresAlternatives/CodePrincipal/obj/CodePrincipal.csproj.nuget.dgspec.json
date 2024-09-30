@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC3/TC3.csproj": {}
+    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/1. MesPremièresAlternatives/CodePrincipal/CodePrincipal.csproj": {}
   },
   "projects": {
-    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC3/TC3.csproj": {
+    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/1. MesPremièresAlternatives/CodePrincipal/CodePrincipal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC3/TC3.csproj",
-        "projectName": "TC3",
-        "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC3/TC3.csproj",
+        "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/1. MesPremièresAlternatives/CodePrincipal/CodePrincipal.csproj",
+        "projectName": "CodePrincipal",
+        "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/1. MesPremièresAlternatives/CodePrincipal/CodePrincipal.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC3/obj/",
+        "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/1. MesPremièresAlternatives/CodePrincipal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
