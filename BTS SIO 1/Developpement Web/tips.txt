@@ -4,3 +4,5 @@ dribble
 fontawesome
 https://mamadoukone.com/les-outils-pour-creer-site-web/
 pixabay
+https://www.ibm.com/docs/fr/aix/7.3?topic=management-network-communication-concepts
+https://www.maxicours.com/se/cours/les-principes-de-la-communication-en-reseaux/
