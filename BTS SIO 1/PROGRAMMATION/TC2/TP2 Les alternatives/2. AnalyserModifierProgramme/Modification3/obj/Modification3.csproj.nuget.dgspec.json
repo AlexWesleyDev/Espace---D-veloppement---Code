@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj": {}
+    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj": {}
   },
   "projects": {
-    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj": {
+    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj",
+        "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj",
         "projectName": "Modification3",
-        "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj",
+        "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/Modification3.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/obj/",
+        "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/2. AnalyserModifierProgramme/Modification3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
