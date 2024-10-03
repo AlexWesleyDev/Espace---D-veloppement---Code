@@ -46,5 +46,6 @@
         "streambuf": "cpp",
         "typeinfo": "cpp"
     },
-    "dotnet.defaultSolution": "TC4.sln"
+    "dotnet.defaultSolution": "TC4.sln",
+    "liveServer.settings.port": 5501
 }
