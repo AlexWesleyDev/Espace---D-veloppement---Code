@@ -42,3 +42,15 @@ https://www.maxicours.com/se/cours/les-principes-de-la-communication-en-reseaux/
 #farlin li{
     display: inline;
     padding: 50px;}
+
+---------
+body{
+    font-family:"Google Sans",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style:normal;
+    font-weight:bolder;
+    background-color: purple;
+}
+-------------
+ <img src="image.jpg" alt="">
+    <h1>Hébergement de site web</h1></h1>
