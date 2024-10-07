@@ -1,0 +1,15 @@
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/bin/Debug/net8.0/3. Akinator
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/bin/Debug/net8.0/3. Akinator.deps.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/bin/Debug/net8.0/3. Akinator.runtimeconfig.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/bin/Debug/net8.0/3. Akinator.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/bin/Debug/net8.0/3. Akinator.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.AssemblyInfoInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.AssemblyInfo.cs
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.csproj.CoreCompileInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.sourcelink.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/refint/3. Akinator.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/3. Akinator.genruntimeconfig.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP2 Les alternatives/3. Akinator/obj/Debug/net8.0/ref/3. Akinator.dll

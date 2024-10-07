@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Exercice1")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("3. Akinator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30a1f68c450399c769ef2d5152cfe1c58e0f0c7b")]
-[assembly: System.Reflection.AssemblyProductAttribute("Exercice1")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Exercice1")]
+[assembly: System.Reflection.AssemblyProductAttribute("3. Akinator")]
+[assembly: System.Reflection.AssemblyTitleAttribute("3. Akinator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
