@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BTS SIO 1", "BTS SIO 1", "{3BD635BE-6932-4E3F-BC56-5C4AC93508CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROGRAMMATION", "PROGRAMMATION", "{85CFC9C1-4085-4B5D-8B57-A8243779D7DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TC2", "TC2", "{F45AAAA9-B4C4-4AF5-8BAD-A31CC932C37B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TP3 Boucle Pour", "TP3 Boucle Pour", "{63BDDFF0-68A8-453F-AC9B-558B9E68DBE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice1", "BTS SIO 1\PROGRAMMATION\TC2\TP3 Boucle Pour\Exercice1\Exercice1.csproj", "{7FCA9631-8A7A-4A4B-BD0B-10FB4A18CAE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TP2 Les alternatives", "TP2 Les alternatives", "{C5306FB0-9645-4C63-B205-4A1B2F290104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akinator", "BTS SIO 1\PROGRAMMATION\TC2\TP2 Les alternatives\Akinator\Akinator.csproj", "{2883821E-3215-4BB7-BC7A-B7A23284D138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCA9631-8A7A-4A4B-BD0B-10FB4A18CAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCA9631-8A7A-4A4B-BD0B-10FB4A18CAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCA9631-8A7A-4A4B-BD0B-10FB4A18CAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCA9631-8A7A-4A4B-BD0B-10FB4A18CAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883821E-3215-4BB7-BC7A-B7A23284D138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883821E-3215-4BB7-BC7A-B7A23284D138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883821E-3215-4BB7-BC7A-B7A23284D138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883821E-3215-4BB7-BC7A-B7A23284D138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85CFC9C1-4085-4B5D-8B57-A8243779D7DE} = {3BD635BE-6932-4E3F-BC56-5C4AC93508CC}
+		{F45AAAA9-B4C4-4AF5-8BAD-A31CC932C37B} = {85CFC9C1-4085-4B5D-8B57-A8243779D7DE}
+		{63BDDFF0-68A8-453F-AC9B-558B9E68DBE8} = {F45AAAA9-B4C4-4AF5-8BAD-A31CC932C37B}
+		{7FCA9631-8A7A-4A4B-BD0B-10FB4A18CAE5} = {63BDDFF0-68A8-453F-AC9B-558B9E68DBE8}
+		{C5306FB0-9645-4C63-B205-4A1B2F290104} = {F45AAAA9-B4C4-4AF5-8BAD-A31CC932C37B}
+		{2883821E-3215-4BB7-BC7A-B7A23284D138} = {C5306FB0-9645-4C63-B205-4A1B2F290104}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {074548F5-3984-4E2F-ACF7-02F37A136609}
+	EndGlobalSection
+EndGlobal
