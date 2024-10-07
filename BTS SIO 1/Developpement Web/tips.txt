@@ -54,3 +54,14 @@ body{
 -------------
  <img src="image.jpg" alt="">
     <h1>Hébergement de site web</h1></h1>
+
+-----------header----------------
+<header>
+        <div id="logo">
+        <img src="logoBlog.png" alt="" id="logoBlog"
+        width="150" height="150"></div>
+</header>
+----------------------------------
+<video autoplay loop muted class="video">
+        <source src="vid.mp4" type="video/mp4">
+    </video>
