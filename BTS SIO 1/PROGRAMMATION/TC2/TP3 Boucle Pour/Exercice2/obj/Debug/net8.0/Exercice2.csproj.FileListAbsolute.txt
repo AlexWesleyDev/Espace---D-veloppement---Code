@@ -1,0 +1,15 @@
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.AssemblyInfoInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.AssemblyInfo.cs
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.csproj.CoreCompileInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.sourcelink.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/bin/Debug/net8.0/Exercice2
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/bin/Debug/net8.0/Exercice2.deps.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/bin/Debug/net8.0/Exercice2.runtimeconfig.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/bin/Debug/net8.0/Exercice2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/bin/Debug/net8.0/Exercice2.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/refint/Exercice2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/Exercice2.genruntimeconfig.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/Exercice2/obj/Debug/net8.0/ref/Exercice2.dll

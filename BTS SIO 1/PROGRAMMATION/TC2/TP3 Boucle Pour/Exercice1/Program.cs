@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace TP3
 {
@@ -16,7 +17,7 @@ namespace TP3
                 if (cpt%2!=0){
                     Console.WriteLine("le compteur est passé à " + cpt);compteur++;
                     if(compteur%10==0){ Console.Write("\n");}}}}*/
-        //3
+        /*/3 et 4
         static void Main(string[] args){
             for (int cpt = 0; cpt < 10; cpt++){
                 for (int i = 1; i <=30; i++){
@@ -24,4 +25,12 @@ namespace TP3
                     if (i > 10 && i < 21){Console.ForegroundColor = ConsoleColor.White;Console.Write("*");}
                     if (i > 20){Console.ForegroundColor = ConsoleColor.Red;Console.Write("*");}}
                 Console.WriteLine("");}
-            Console.ReadKey();}}}
+            Console.ReadKey();}*/
+        //5
+        static void Main(string[] args){
+            int temps=0;
+            Console.Write("Saisir un temps en seconde : ");string inputTemps= Console.ReadLine();
+            if(string.IsNullOrEmpty(inputTemps) || !int.TryParse(inputTemps, out temps)){Console.WriteLine("Erreur de saisie.");}
+            else{
+                for (int i = temps; i >0; i--){Console.WriteLine("T - " + i + " s");Thread.Sleep(1000);}}}
+                }}
