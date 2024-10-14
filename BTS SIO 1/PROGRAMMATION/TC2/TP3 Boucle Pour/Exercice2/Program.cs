@@ -20,11 +20,12 @@ namespace TP3
                 if(i==10){Console.Write("CA de octobre : ");inputCA=Console.ReadLine();}
                 if(i==11){Console.Write("CA de novembre : ");inputCA=Console.ReadLine();}
                 if(i==12){Console.Write("CA de décembre : ");inputCA=Console.ReadLine();}
-                if(string.IsNullOrEmpty(inputCA) || !int.TryParse(inputCA, out CA)){i++;erreur++;}
+                if(string.IsNullOrEmpty(inputCA) || !int.TryParse(inputCA, out CA)){erreur++;}
                 else{
                     cumul=cumul+CA;
                     if(CA<minCA){minCA=CA;mCApt=i;}
-                    else{if(CA > maxCA){maxCA=CA;mCAgrd=i;}}}}
+                    if(CA > maxCA){maxCA=CA;mCAgrd=i;}}}
             Console.WriteLine("Cumul des CA mensuels : "+cumul+" €");Console.WriteLine("Moyenne des CA mensuels : "+cumul/12+" €");
-            Console.WriteLine("Mois du + CA : "+mCAgrd+" eme mois");Console.WriteLine("Mois du - CA : "+mCApt+" eme mois");}
+            Console.WriteLine("Mois du + CA : "+mCAgrd+" eme mois");Console.WriteLine("Mois du - CA : "+mCApt+" eme mois");
+            Console.WriteLine("Nombre d’erreurs de saisie effectuées : "+erreur);Console.ReadKey();}
 }}
