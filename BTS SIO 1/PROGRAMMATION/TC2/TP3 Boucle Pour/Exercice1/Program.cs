@@ -26,7 +26,7 @@ namespace TP3
                     if(i < 11){Console.ForegroundColor = ConsoleColor.Blue;Console.Write("*");}
                     if (i > 10 && i < 21){Console.ForegroundColor = ConsoleColor.White;Console.Write("*");}
                     if (i > 20){Console.ForegroundColor = ConsoleColor.Red;Console.Write("*");}}
-                Console.WriteLine("");} Console.ForegroundColor = ConsoleColor.White; // Couleur de police en blanc à l'affichage en console.
+                Console.WriteLine("");} Console.ForegroundColor = ConsoleColor.White; // Couleur de police de la console en blanc à l'affichage.
         }
         //5 Programme de décompte d’un temps exprimé en seconde (s).
         static void Decompte(){
