@@ -7,18 +7,15 @@ namespace TP3{
             if(string.IsNullOrEmpty(inputlargeur) || !int.TryParse(inputlargeur,out int larg) || larg%2==0){
                 Console.Write("");}
             else{
-                int gauche=larg/2+1;int droite=(larg/2)+1;
-                for(int i=1;i<=larg;i++){
+                int gauche=larg/2;int droite=(larg/2);
+                for(int i=1;i<=larg+1;i++){
                     for (int j = 1; j <= larg; j++){
-                        if(gauche<i && i<droite){Console.Write}
-                        Console.Write(" ")
-                        
-                        
-                    }
-                    Console.Write("");
-
-                }
-            }
-        }
+                        if(gauche<j && j<droite){Console.Write("*");}
+                        else{Console.Write(" ");}}
+                    Console.WriteLine("");
+                    if(i<=(larg/2)+1 && i<larg+1){gauche--;droite++;}
+                    else{
+                        if(i>(larg/2)+1){gauche++;droite--;}}}
+           }}
         static void Main (string[] args){afficherLosange();Console.ReadKey();}}
 }

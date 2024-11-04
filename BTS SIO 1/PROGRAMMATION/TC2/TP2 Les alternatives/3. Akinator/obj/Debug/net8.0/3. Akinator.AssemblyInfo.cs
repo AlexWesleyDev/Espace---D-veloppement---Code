@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3. Akinator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f49dc14083ce9458fc350de90343a8c1ace55023")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+532a96d51a58c9ef771910550bce8b296ca668ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("3. Akinator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3. Akinator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
