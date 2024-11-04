@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProgramBonus3/1.0.0": {
+        "runtime": {
+          "ProgramBonus3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramBonus3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
