@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Espace-DevCod/Code Libre/ProgramBonus3/ProgramBonus3.csproj": {}
+    "/workspaces/Espace-DevCod/Code Libre/App/App.csproj": {}
   },
   "projects": {
-    "/workspaces/Espace-DevCod/Code Libre/ProgramBonus3/ProgramBonus3.csproj": {
+    "/workspaces/Espace-DevCod/Code Libre/App/App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Espace-DevCod/Code Libre/ProgramBonus3/ProgramBonus3.csproj",
-        "projectName": "ProgramBonus3",
-        "projectPath": "/workspaces/Espace-DevCod/Code Libre/ProgramBonus3/ProgramBonus3.csproj",
+        "projectUniqueName": "/workspaces/Espace-DevCod/Code Libre/App/App.csproj",
+        "projectName": "App",
+        "projectPath": "/workspaces/Espace-DevCod/Code Libre/App/App.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Espace-DevCod/Code Libre/ProgramBonus3/obj/",
+        "outputPath": "/workspaces/Espace-DevCod/Code Libre/App/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

@@ -1,13 +1,17 @@
 ﻿using System;
 namespace TP3{
-    internal class program{
-        static int choix;static string inputchoix;
+    internal class Program{
+        static int choix=0;static string inputchoix="";
         //2
         static void Menu(){
             Console.Write("\nMENU : \n1. Parler\n2. Travailler\n3. Jouer\n4. Dormir\n5. Quitter\nVotre Choix : ");
             inputchoix = Console.ReadLine();
-            while(string.IsNullOrEmpty(inputchoix) || !int.TryParse(inputchoix,out int choix) || choix<1 ||
+            while(string.IsNullOrEmpty(inputchoix) || !int.TryParse(inputchoix,out choix) || choix<1 ||
             choix>6){inputchoix = Console.ReadLine();}}
+        //Bonus 1
+        static void MenuTravailler(){
+            
+        }
         //1
         static void TraitementChoix(){
             switch (choix){
@@ -22,6 +26,7 @@ namespace TP3{
                 break;
                 case 4:
                 Console.WriteLine("Réglage de l'horloge à 06h30. Bonne nuit !");
+                break;
                 case 5:
                 Console.WriteLine("Fermeture des sessions.");
                 break;

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/ProgramBonus4/ProgramBonus4.csproj",
+      "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.1_Boucle Pour/ProgramBonus4/ProgramBonus4.csproj",
       "projectName": "ProgramBonus4",
-      "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/ProgramBonus4/ProgramBonus4.csproj",
+      "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.1_Boucle Pour/ProgramBonus4/ProgramBonus4.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC2/TP3 Boucle Pour/ProgramBonus4/obj/",
+      "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.1_Boucle Pour/ProgramBonus4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
