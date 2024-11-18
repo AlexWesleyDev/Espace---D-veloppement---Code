@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Exercice2.csproj": {}
+    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_1/Version_1.csproj": {}
   },
   "projects": {
-    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Exercice2.csproj": {
+    "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_1/Version_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Exercice2.csproj",
-        "projectName": "Exercice2",
-        "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Exercice2.csproj",
+        "projectUniqueName": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_1/Version_1.csproj",
+        "projectName": "Version_1",
+        "projectPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_1/Version_1.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/obj/",
+        "outputPath": "/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
