@@ -70,8 +70,10 @@ namespace TP3_Version2{
                 Console.WriteLine("******CAFE en cours de PREPARATION******");
                 //Console.WriteLine("******CAFE prêt.Terminé !******"); facultatif
     
-                Console.Write("Souhaitez-vous quitter ? (o/n):\n");inputPiece=Console.ReadLine();
+                Console.Write("Souhaitez-vous quitter ? (o/n):\n");
+                inputPiece=Console.ReadLine();
                 total=0;// Remise à zero de la valeur total pour éviter l'enregistrement du montant de l'opération précédente.
+
             }while(!string.IsNullOrEmpty(inputPiece) && inputPiece=="n");//On arrête la préparation si l'utilisateur décide de quitter.
         }
     }
