@@ -52,22 +52,27 @@ namespace TP3_Version2{
                     }
                     if(piece==10 || piece==20 || piece==50){piece=piece*0.01;}
                     total+=piece;
+                    total=Math.Round(total,2); //
                     if(total<PrixCafé){Console.Write("Montant : "+total+" euro(s)"+". Introduire des pièces : ");}
                 }while(total<PrixCafé);
 
                 Console.WriteLine("Total = "+total);// Test à retirer !!!!
-
-                if(total>=1){Console.WriteLine("Vous avez inséré "+total+" euro(s)");}
-                else{Console.WriteLine("Vous avez inséré "+total+" centimes d'euro");}            
+                
+                if(total>=1){Console.WriteLine("Vous avez inséré "+total+" euro(s).");}
+                else{Console.WriteLine("Vous avez inséré "+total+" centimes d'euro.");}            
                 //
                 if(total>=PrixCafé){
-                        if(total>PrixCafé){Console.WriteLine("Vous avez trop versé, nous vous devons "+(total-PrixCafé)+". RECUPERER VOS PIECES !");}
-                        Console.WriteLine("******CAFE en cours de PREPARATION******");//Console.WriteLine("******CAFE prêt.Terminé !******");
+                        if(total>PrixCafé){
+                            Console.WriteLine("Vous avez trop versé, nous vous devons "+ Math.Round((total-PrixCafé),2) +" €. RECUPERER VOS PIECES !");
+                        }
                 }
-                Console.Write("Souhaitez-vous quitter ? (O/N):\n");inputPiece=Console.ReadLine();
-            }while(!string.IsNullOrEmpty(inputPiece) && inputPiece=="N");//On arrête la préparation si l'utilisateur décide de quitter.
+                
+                Console.WriteLine("******CAFE en cours de PREPARATION******");
+                //Console.WriteLine("******CAFE prêt.Terminé !******"); facultatif
+    
+                Console.Write("Souhaitez-vous quitter ? (o/n):\n");inputPiece=Console.ReadLine();
+                total=0;// Remise à zero de la valeur total pour éviter l'enregistrement du montant de l'opération précédente.
+            }while(!string.IsNullOrEmpty(inputPiece) && inputPiece=="n");//On arrête la préparation si l'utilisateur décide de quitter.
         }
     }
 }
-
-//PENSEZ A GERER L'ENSEMBLE DU PROGRAMME COMPLET, AJOUTER DES COULEURS SI POSSIBLE ET TERMINER LE TP POUR DEMAIN.
