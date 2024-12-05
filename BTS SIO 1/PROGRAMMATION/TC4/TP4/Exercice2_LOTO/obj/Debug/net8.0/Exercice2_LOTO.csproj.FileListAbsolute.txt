@@ -1,0 +1,15 @@
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/bin/Debug/net8.0/Exercice2_LOTO
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/bin/Debug/net8.0/Exercice2_LOTO.deps.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/bin/Debug/net8.0/Exercice2_LOTO.runtimeconfig.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/bin/Debug/net8.0/Exercice2_LOTO.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/bin/Debug/net8.0/Exercice2_LOTO.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.AssemblyInfoInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.AssemblyInfo.cs
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.csproj.CoreCompileInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.sourcelink.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/refint/Exercice2_LOTO.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/Exercice2_LOTO.genruntimeconfig.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP4/Exercice2_LOTO/obj/Debug/net8.0/ref/Exercice2_LOTO.dll

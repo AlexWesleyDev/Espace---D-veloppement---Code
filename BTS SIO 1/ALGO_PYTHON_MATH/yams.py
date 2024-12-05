@@ -23,7 +23,6 @@ def Full(T):
 
 def PetiteSuite(T):
     T.sort()
-    cpt=0
     for i in range(len(T)):
         if(i==3 or i==4): return True
         else:
@@ -41,12 +40,3 @@ def Yams(T):
     T.sort()
     if(Carre): return T[0]==T[4]
     return False
-
-#TEST
-T=lancer()
-cpt=0
-while(not(Yams(T)) and cpt<10000):
-    cpt+=1
-    print(T,"\nYAMS ",Yams(T))
-    T=lancer()
-print(T,"\nYAMS ",Yams(T)," Essai(s) ",cpt)
