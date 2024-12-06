@@ -65,10 +65,13 @@ namespace TP4{
             }
             if(TabNumJoueur[5]==numComp && cpt==5){
                 Console.WriteLine("Vos numéros sont identiques à ceux du LOTO. VOUS AVEZ GAGNE LE JACKPOT !");
-                return true;} // Renvoie vraie si les 6 numéros gagnants ont été cochés (le numéro complémentaire est situé en dernière de position dans TabNumJoueur).
+                return true; // Renvoie vraie si les 6 numéros gagnants ont été cochés (le numéro complémentaire est situé en dernière de position dans TabNumJoueur).
+                
+            }
             else{             // Et Faux sinon.
                 Console.WriteLine("Vos numéros ne sont pas identiques à ceux du LOTO !");
-                return false; }
+                return false;
+            }
         }
         // FIN D)
 
@@ -130,11 +133,8 @@ namespace TP4{
             // TESTS
             numComp=4;
             if(!TestGagnant()){
-                MessageGain(Gain(Jackpot),Jackpot);}
-            else{
                 Console.WriteLine(numComp);
-                TestGagnant();
-            }
+                MessageGain(Gain(Jackpot),Jackpot);}
         }
     }
 }
