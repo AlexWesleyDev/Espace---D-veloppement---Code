@@ -3,21 +3,21 @@ using System.Collections.Generic;
 namespace TP4{
     internal class Program{
         static string inputNum;
-        static int numero,numComp;
-        static List<int> TabNumJoueur= new List<int>();
-        static List<int> TabAlea= new List<int>();
-        // A) - Gestion de la saisie des numéros du joueur
+        static int numero,numComp,Jackpot = 2000000;
+        static List<int> TabNumJoueur= new List<int>{1,12,14,6,24,4}; // Tableau de grille du joueur.
+        static List<int> TabAlea= new List<int>{1,12,14,6,24}; // Tableau en guise de grille qui contiendra les numéros gagnants. 
+        // A) - Gestion de la saisie des numéros du joueur.
         static void SaisieNumerosJoueur(){
             Console.WriteLine("CHOISIR 5 numéros entre 1-49 :");
             for (int i = 1; i <= 5; i++){
-                Console.Write("Case "+i+" : ");
+                Console.Write("N° "+i+" : ");
                 inputNum=Console.ReadLine();
-                while(string.IsNullOrEmpty(inputNum)||!int.TryParse(inputNum, out numero)|| numero<1 || // Se Répète si un 1>numero ou 49<numero
-                numero>49 || TabNumJoueur.Contains(numero)){ // Ou si un numéro existe déjà ou si la saisie est vide.
-                    Console.Write("Erreur de saisie, CHOISIR 5 numéros non nulls entre 1-49 tous différents ! Case "+i+" : ");
-                    inputNum=Console.ReadLine();
+                while(string.IsNullOrEmpty(inputNum)||!int.TryParse(inputNum, out numero)|| numero<1 || // Se Répète si la saisie est vide
+                numero>49 || TabNumJoueur.Contains(numero)){ // Ou si le tableau en contient déjà ou numero<1 ou 49<numero avant d'ajouter au tableau.
+                    Console.WriteLine("Erreur de saisie, CHOISIR 5 numéros non nulls entre 1-49 tous différents !");
+                    Console.Write("N° "+i+" : "); inputNum=Console.ReadLine();
                 }
-                TabNumJoueur.Add(numero);              
+                TabNumJoueur.Add(numero);
             }
             Console.Write("Numéro complémentaire entre 1-10 : "); inputNum=Console.ReadLine();
             while(string.IsNullOrEmpty(inputNum)||!int.TryParse(inputNum, out numComp)|| numComp<1 || numComp>10){// Se Répète si un 1>numComp ou 10<numero
@@ -27,12 +27,19 @@ namespace TP4{
         }
         // FIN A)
 
-        // B) Affichage de la grille des 6 numéros cochés.
-        static void Affichage(){
+        // B) Affichage de la grille des 6 numéros cochés et des numéros gagnants.
+        static void Affichage()
+        {
             Console.Write("Votre grille est enregistrée avec la liste des numéros choisis: ");
             for (int i = 0; i < TabNumJoueur.Count-1; i++){
                 Console.Write(TabNumJoueur[i]+" ");}
-            Console.Write("et "+TabNumJoueur[5]); Console.WriteLine("");
+            Console.Write("et "+TabNumJoueur[5]);
+            Console.WriteLine("");
+            Console.Write("La Grille Gagnante : ");
+            for(int i = 0; i < TabAlea.Count-1; i++){
+                Console.Write(TabAlea[i]+" ");}
+            Console.Write("et "+TabAlea[5]);
+            Console.WriteLine("");
         }
         // FIN B)
         
@@ -46,7 +53,7 @@ namespace TP4{
                 TabAlea.Add(numero); // ajout successif après chaque saisie.       
             }
             numComp=rand.Next(1,11); // Génère au hasard le numéro complémentaire 1-11 exclu, pas nécessairement
-            TabAlea.Add(numComp); // différents des 5 numéros.
+                                     // différents des 5 numéros.
         }
         // FIN C)
 
@@ -54,31 +61,80 @@ namespace TP4{
         static bool TestGagnant(){
             int cpt=0;
             for (int i = 0; i < TabNumJoueur.Count-1; i++){ // Parcourt les 5 premiers numéros jusqu'à n-1 exclu qui représente le numéro complémentaire.
-                if(TabAlea.Contains(TabNumJoueur[i])){cpt++;} // Incrémente le compteur cpt de +1 si un numéro est présent dans TabAlea = Grille aléatoire du jeu.
+                if(TabAlea.Contains(TabNumJoueur[i])){cpt++;} // Incrémente le compteur cpt de +1 si un numéro est présent dans TabAlea = Grille gagnant du jeu.
             }
-            if(TabNumJoueur[5]==numComp && cpt==5){ // Renvoie 5 numéros gagnant ont été cochés 
+            if(TabNumJoueur[5]==numComp && cpt==5){
                 Console.WriteLine("Vos numéros sont identiques à ceux du LOTO. VOUS AVEZ GAGNE LE JACKPOT !");
-                return true;} // Renvoie vraie si les 6 numéros gagnants ont été cochés (le numéro complémentaire situé en dernière de position dans TabNumJoueur).
-            else{
+                return true;} // Renvoie vraie si les 6 numéros gagnants ont été cochés (le numéro complémentaire est situé en dernière de position dans TabNumJoueur).
+            else{             // Et Faux sinon.
                 Console.WriteLine("Vos numéros ne sont pas identiques à ceux du LOTO !");
-                return false; } // Renvoie Faux sinon. 
+                return false; }
         }
         // FIN D)
 
         // E)
-
-
+        static int Gain(int Somme)
+        {
+            int cpt=0;
+            for(int i=0;i<TabNumJoueur.Count-1;i++){
+                if(TabAlea.Contains(TabNumJoueur[i])){cpt++;}
+            }
+            if(cpt==4)
+            {
+                if(TabNumJoueur[5]==numComp){
+                    return Somme*80/100;}
+                return Somme*70/100;
+            }
+            if(cpt==3)
+            {
+                if(TabNumJoueur[5]==numComp){
+                    return Somme*50/100;}
+                return Somme*40/100;
+            }
+            if(cpt==2)
+            {
+                if(TabNumJoueur[5]==numComp){
+                    return Somme*10/100;}
+                return Somme*5/100;
+            }
+            return 0;
+        }
+        static void MessageGain(int gain,int Somme){
+            Console.WriteLine("Second Tirage du Jeu :");
+            if(gain==Somme*0.80){
+                Console.WriteLine("4 numéros gagnants et le complémentaire "+numComp+", vous avez gagné "+gain+" € (80% du JACKPOT de "+Jackpot+" €)");
+            }
+            if(gain==Somme*0.70){
+                Console.WriteLine("4 numéros gagnants sans le complémentaire, vous avez gagné "+gain+" € (70% du JACKPOT de "+Jackpot+" €)");
+            }
+            if(gain==(Somme*50)/100){
+                Console.WriteLine("3 numéros gagnants et le complémentaire "+numComp+", vous avez gagné "+gain+" € (50% du JACKPOT de "+Jackpot+" €)");
+            }
+            if(gain==(Somme*40)/100){
+                Console.WriteLine("3 numéros gagnants sans le complémentaire, vous avez gagné "+gain+" € (40% du JACKPOT de "+Jackpot+" €)");
+            }
+            if(gain==(Somme*10)/100){
+                Console.WriteLine("2 numéros gagnants et le complémentaire "+numComp+", vous avez gagné "+gain+" € (10% du JACKPOT de "+Jackpot+" €)");
+            }
+            if(gain==(Somme*5)/100){
+                Console.WriteLine("2 numéros gagnants sans le complémentaire, vous avez gagné "+gain+" € (5% du JACKPOT de "+Jackpot+" €)");
+            }
+        }
         static void Main(string[] args){
-            Console.WriteLine("BIENVENU AU LOTO, Tentez votre chance pour gagner le JACKPOT !");
+            Console.WriteLine("BIENVENU AU LOTO, Tentez votre chance pour gagner le JACKPOT de "+Jackpot+" € !");
+            /*
             SaisieNumerosJoueur();
-            Affichage();
             TirageAléa();
-            Console.Write("La grille enregistrée : ");
-            for(int i = 0; i < TabAlea.Count-1; i++){
-                Console.Write(TabAlea[i]+" ");}
-            Console.Write("et "+TabAlea[5]);
-            Console.WriteLine("");
-            TestGagnant();
+            Affichage();*/
+            // TESTS
+            // TESTS
+            numComp=4;
+            if(!TestGagnant()){
+                MessageGain(Gain(Jackpot),Jackpot);}
+            else{
+                Console.WriteLine(numComp);
+                TestGagnant();
+            }
         }
     }
 }
