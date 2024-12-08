@@ -1,0 +1,30 @@
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/bin/Debug/net8.0/Version_2
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/bin/Debug/net8.0/Version_2.deps.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/bin/Debug/net8.0/Version_2.runtimeconfig.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/bin/Debug/net8.0/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/bin/Debug/net8.0/Version_2.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.AssemblyInfoInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.AssemblyInfo.cs
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.csproj.CoreCompileInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.sourcelink.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/refint/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/Version_2.genruntimeconfig.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2/Version_2/obj/Debug/net8.0/ref/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/bin/Debug/net8.0/Version_2
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/bin/Debug/net8.0/Version_2.deps.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/bin/Debug/net8.0/Version_2.runtimeconfig.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/bin/Debug/net8.0/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/bin/Debug/net8.0/Version_2.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.AssemblyInfoInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.AssemblyInfo.cs
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.csproj.CoreCompileInputs.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.sourcelink.json
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/refint/Version_2.dll
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.pdb
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/Version_2.genruntimeconfig.cache
+/workspaces/Espace-DevCod/BTS SIO 1/PROGRAMMATION/TC4/TP3.2_Boucle Tant Que/Exercice2_Machine Café/Version_2/obj/Debug/net8.0/ref/Version_2.dll

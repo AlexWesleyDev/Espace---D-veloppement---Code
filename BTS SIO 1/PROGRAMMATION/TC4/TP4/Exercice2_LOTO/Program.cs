@@ -4,8 +4,8 @@ namespace TP4{
     internal class Program{
         static string inputNum;
         static int numero,numComp,Jackpot = 2000000;
-        static List<int> TabNumJoueur= new List<int>{1,12,14,6,24,4}; // Tableau de grille du joueur.
-        static List<int> TabAlea= new List<int>{1,12,14,6,24}; // Tableau en guise de grille qui contiendra les numéros gagnants. 
+        static List<int> TabNumJoueur= new List<int>(); // Tableau de grille du joueur.
+        static List<int> TabAlea= new List<int>(); // Tableau en guise de grille qui contiendra les numéros gagnants. 
         // A) - Gestion de la saisie des numéros du joueur.
         static void SaisieNumerosJoueur(){
             Console.WriteLine("CHOISIR 5 numéros entre 1-49 :");
@@ -36,9 +36,9 @@ namespace TP4{
             Console.Write("et "+TabNumJoueur[5]);
             Console.WriteLine("");
             Console.Write("La Grille Gagnante : ");
-            for(int i = 0; i < TabAlea.Count-1; i++){
+            for(int i = 0; i < TabAlea.Count; i++){
                 Console.Write(TabAlea[i]+" ");}
-            Console.Write("et "+TabAlea[5]);
+            Console.Write("et "+numComp);
             Console.WriteLine("");
         }
         // FIN B)
@@ -66,7 +66,6 @@ namespace TP4{
             if(TabNumJoueur[5]==numComp && cpt==5){
                 Console.WriteLine("Vos numéros sont identiques à ceux du LOTO. VOUS AVEZ GAGNE LE JACKPOT !");
                 return true; // Renvoie vraie si les 6 numéros gagnants ont été cochés (le numéro complémentaire est situé en dernière de position dans TabNumJoueur).
-                
             }
             else{             // Et Faux sinon.
                 Console.WriteLine("Vos numéros ne sont pas identiques à ceux du LOTO !");
@@ -76,25 +75,25 @@ namespace TP4{
         // FIN D)
 
         // E)
-        static int Gain(int Somme)
+        static int Gain(int Somme,int NbNumGagnant)
         {
-            int cpt=0;
-            for(int i=0;i<TabNumJoueur.Count-1;i++){
-                if(TabAlea.Contains(TabNumJoueur[i])){cpt++;}
-            }
-            if(cpt==4)
+            // NbNumGagnant : Nombre de numéros gagnants trouvés dans la grille TabNumJoueur
+            // selon ou non l'ordre du tirage des numéros avec ceux du LOTO.
+            // Somme : Montant du jackpot défini au LOTO.
+
+            if(NbNumGagnant==4)
             {
                 if(TabNumJoueur[5]==numComp){
                     return Somme*80/100;}
                 return Somme*70/100;
             }
-            if(cpt==3)
+            if(NbNumGagnant==3)
             {
                 if(TabNumJoueur[5]==numComp){
                     return Somme*50/100;}
                 return Somme*40/100;
             }
-            if(cpt==2)
+            if(NbNumGagnant==2)
             {
                 if(TabNumJoueur[5]==numComp){
                     return Somme*10/100;}
@@ -104,6 +103,7 @@ namespace TP4{
         }
         static void MessageGain(int gain,int Somme){
             Console.WriteLine("Second Tirage du Jeu :");
+
             if(gain==Somme*0.80){
                 Console.WriteLine("4 numéros gagnants et le complémentaire "+numComp+", vous avez gagné "+gain+" € (80% du JACKPOT de "+Jackpot+" €)");
             }
@@ -122,19 +122,28 @@ namespace TP4{
             if(gain==(Somme*5)/100){
                 Console.WriteLine("2 numéros gagnants sans le complémentaire, vous avez gagné "+gain+" € (5% du JACKPOT de "+Jackpot+" €)");
             }
+            if(gain==0){Console.WriteLine("Pas de numéros gagnants, Aucun gain possible !");}
         }
+        // FIN E)
+
+        // BONUS 1
+        static void TestGagnantOrdre
+        TirageOrdonné();
+        TirageSansOrdre();
+        
+
+
         static void Main(string[] args){
             Console.WriteLine("BIENVENU AU LOTO, Tentez votre chance pour gagner le JACKPOT de "+Jackpot+" € !");
-            /*
             SaisieNumerosJoueur();
             TirageAléa();
-            Affichage();*/
-            // TESTS
-            // TESTS
-            numComp=4;
-            if(!TestGagnant()){
-                Console.WriteLine(numComp);
-                MessageGain(Gain(Jackpot),Jackpot);}
+            Affichage();
+            bool b = TestGagnant();
+            if(!b){
+                // Test de gain en respectant l'ordre.
+                MessageGain(Gain(Jackpot),Jackpot);// Test de gain avec Grille NON ORDONNEE.
+
+            }
         }
     }
 }
