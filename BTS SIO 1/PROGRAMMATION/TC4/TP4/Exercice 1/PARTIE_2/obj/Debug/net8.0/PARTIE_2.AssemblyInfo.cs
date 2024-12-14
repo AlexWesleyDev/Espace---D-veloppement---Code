@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PARTIE_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a10081b992d13d34ed58d090efde36eb2108f16d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+226c059f476ad9b6b6ed3b9e0f99a8aa294075e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PARTIE_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PARTIE_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
